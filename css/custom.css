@@ -1,0 +1,70 @@
+body {
+  font-family: Roboto;
+}
+/*51 op*/
+.container{
+	    margin: 0;
+    width: 100%;
+}
+
+.row>.col-xs-12{
+	background-size: cover;
+}
+
+.linepoint{
+	height:100%;
+	border-left:4px solid #fff;
+	position: absolute;
+}
+
+.linepoint::before{
+	content:' ';
+	width: 30px;
+	height: 30px;
+	padding:7px;
+	background: #fff;
+	border-radius:100%;
+	position: absolute;
+	top:50%;
+	left:-17px;
+	margin-top:-15px;
+}
+
+.learn::before{
+	font: normal normal normal 14px/1 FontAwesome;
+	content: "\f02d";
+	font-size:16px;
+}
+
+.competition::before{
+	font: normal normal normal 14px/1 FontAwesome;
+	content: "\f091";
+	font-size:16px;
+}
+
+.university::before{
+	font: normal normal normal 14px/1 FontAwesome;
+	content: "\f19d";
+	font-size:16px;
+}
+
+.now::before{
+	font: normal normal normal 14px/1 FontAwesome;
+	content: "\f005";
+	font-size:16px;
+}
+
+.card{
+	padding:40px 20px;
+	color:#fafafa;
+}
+
+.card h2{
+	font-family: 'Roboto Thin';
+	font-size: 45px;
+	margin-top:0;
+}
+
+.card h2 b{
+	color: #fbfbfb;
+}
