@@ -14,22 +14,22 @@ $(function(){
 	s = setInterval(function(){imrandom();}, 1000);
 
 	$('.iam').on('mouseenter', function(){
-		$(this).find('p').fadeIn(300);
-		$('.iambg').fadeIn(300);
+		$(this).find('p').fadeIn(200);
+		$('.iambg').fadeIn(200);
 	});
 
 	$('.iam').on('mouseleave', function(){
-		$(this).find('p').fadeOut(300);
-		$('.iambg').fadeOut(300);
+		$(this).find('p').fadeOut(200);
+		$('.iambg').fadeOut(200);
 	});
 
 	$('.timeline').on('mouseenter', function(){
-		$(this).find('p').fadeIn(300);
-		$('.timelinebg').fadeIn(300);
+		$(this).find('p').fadeIn(200);
+		$('.timelinebg').fadeIn(200);
 	});
 
 	$('.timeline').on('mouseleave', function(){
-		$(this).find('p').fadeOut(300);
-		$('.timelinebg').fadeOut(300);
+		$(this).find('p').fadeOut(200);
+		$('.timelinebg').fadeOut(200);
 	});
 });
