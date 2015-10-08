@@ -5,12 +5,11 @@ $(function(){
 		$('.i'+n).fadeOut(500, function(){
 			n++;
 			$('.i'+n).fadeIn(500);
-			if(n==4){
+			if(n==6){
 				clearInterval(s);
 			}
 		});
 	}
-	imrandom();
 	s = setInterval(function(){imrandom();}, 1000);
 
 	$('.iam').on('mouseenter', function(){
