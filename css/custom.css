@@ -54,6 +54,10 @@ body {
 	font-size:16px;
 }
 
+.wrapcard > .col-xs-11{
+	min-height: 280px;
+}
+
 .card{
 	padding:40px 20px;
 	color:#fafafa;

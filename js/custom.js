@@ -10,5 +10,26 @@ $(function(){
 			}
 		});
 	}
-	s = setInterval(function(){imrandom();}, 1500);
+	imrandom();
+	s = setInterval(function(){imrandom();}, 1000);
+
+	$('.iam').on('mouseenter', function(){
+		$(this).find('p').fadeIn(300);
+		$('.iambg').fadeIn(300);
+	});
+
+	$('.iam').on('mouseleave', function(){
+		$(this).find('p').fadeOut(300);
+		$('.iambg').fadeOut(300);
+	});
+
+	$('.timeline').on('mouseenter', function(){
+		$(this).find('p').fadeIn(300);
+		$('.timelinebg').fadeIn(300);
+	});
+
+	$('.timeline').on('mouseleave', function(){
+		$(this).find('p').fadeOut(300);
+		$('.timelinebg').fadeOut(300);
+	});
 });

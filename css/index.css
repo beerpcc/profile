@@ -1,12 +1,64 @@
 body {
   font-family: Roboto;
   background: #3498db;
+  background-size: cover;
 }
+
 h1{
 	font-family: 'Roboto Light';
 	font-size: 50px;
 	color:#fafafa;
+	margin:100px 0;
+	    text-align: center;
 }
+
 h1 font{
 	display: none;
+}
+
+.btn-circle{
+	width: 100px;
+	height: 100px;
+	padding-top:16px;
+	font-size:40px;
+	text-align: center;
+	border-radius: 100px;
+	display: inline-block;
+	color: #FFF;
+	border:3px solid #fff;
+	margin:0 20px;
+}
+
+.btn-circle p{
+	position: absolute;
+	bottom:-60px;
+	font-family: 'Roboto Light';
+	font-size: 24px;
+	display: none;
+}
+
+.btn-circle:hover, .btn-circle:active, .btn-circle:focus{
+	color: #fafafa;
+	border:3px solid #fafafa;
+	text-decoration:none;
+}
+
+.bg{
+	width: 100%;
+	height:100%;
+	background-size: cover;
+	display: none;
+	position: fixed;
+	top:0;
+	left:0;
+}
+
+.contact{
+	margin-top:150px;
+}
+
+.contact a{
+	color: #fff;
+	font-size: 30px;
+	margin:0 20px;
 }
