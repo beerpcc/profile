@@ -1,0 +1,52 @@
+#me{
+	name:'Siwakorn  Petchuchuay';
+	language:'Thai, English';
+}
+
+#me .contact{
+	email:'siwakorn.pcc@gmail.com';
+	tel:'+66888818809';
+	github:'/cyberbeer';
+	twitter:'/beerswk';
+	facebook:'/fatal.error.cyberboy';
+}
+
+#me .education::before{
+	school:'Kanlayanee Si Thammarat School';
+	major:'Science-math';
+}
+
+#me .education::after{
+	university:'King Mongkut\'s University of Technology Thonburi';
+	faculty:'School of Information Technology';
+	department:'Computer Science';
+}
+
+#me .project:nth-child(1){
+	name:'Behave';
+	description:'go & travel green platform for eco flight services (with THAI airways).';
+}
+
+#me .project:nth-child(2){
+	name:'Evergo';
+	description:'web application for trip reviewer written on MEAN Stack.';
+}
+
+#me .project:nth-child(3){
+	name:'Blogapp';
+	description:'blogging platform written by PHP with laravel framework.';
+}
+
+#me .field-of-interest{
+	content:'Web Development, Android Application Development';
+}
+
+#me .experience.skills{
+	content:'4-years experienced in PHP Development';
+	content:'2-years experienced in github';
+	content:'1-years experienced in NodeJS web development (aka MEAN Stack)';
+	content:'2-years experienced in bootstrap css framework.';
+	content:'2-years experienced in codeigniter php framework.';
+	content:'LAMP/MEAN Stack server configuration.';
+	more:'http://cyberbeer.github.io/profile/';
+}

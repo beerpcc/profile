@@ -34,7 +34,7 @@ h1 font{
 	bottom:-60px;
 	padding-top: 60px;
 	font-family: 'Roboto Light';
-	font-size: 24px;
+	font-size: 20px;
 	display: none;
 }
 
@@ -62,4 +62,40 @@ h1 font{
 	color: #fff;
 	font-size: 30px;
 	margin:0 20px;
+}
+
+#iam{
+	position: fixed;
+	left: 20%;
+	top: 10%;
+	width:60%;
+	height: 80%;
+	background: #fff;
+	z-index:9999;
+	border-radius: 5px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	overflow: auto;
+	padding:20px;
+	display: none;
+}
+
+#iam p, ul{
+	font-size:20px;
+}
+
+#iam b{margin:10px 0 5px 0;display: block;height:20px;}
+
+#iam .close{
+	position: absolute;
+	right:10px;
+	top: 10px;
+	display: block;
+	width:30px;
+	height:30px;
+	color:#999;
+	font-size: 30px;
+	opacity: 0.3;
+}
+#iam .close:hover{
+	opacity: 1;
 }

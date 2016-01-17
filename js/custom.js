@@ -4,13 +4,18 @@ $(function(){
 	function imrandom(){
 		$('.i'+n).fadeOut(300, function(){
 			n++;
-			$('.i'+n).fadeIn(300);
 			if(n==6){
 				clearInterval(s);
+				$('.i'+n).fadeIn(300);
+				return;
 			}
+			$('.i'+n).fadeIn(300, function(){
+
+				setTimeout(function(){imrandom();}, 500);
+			});
 		});
 	}
-	setTimeout(function(){imrandom();s = setInterval(function(){imrandom();}, 1600);}, 1000);
+	setTimeout(function(){imrandom();}, 1000);
 	$('.iam').on('mouseenter', function(){
 		$(this).find('p').fadeIn(200);
 		$('.iambg').fadeIn(200);
