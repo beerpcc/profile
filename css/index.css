@@ -29,14 +29,16 @@ h1 font{
 	margin:0 20px;
 }
 
-.btn-circle p{
+.btn-circle p{    
 	position: absolute;
-	bottom:-60px;
-	padding-top: 60px;
-	font-family: 'Roboto Light';
-	font-size: 20px;
-	display: none;
+    padding-top: 60px;
+    font-family: 'Roboto Light';
+    font-size: 20px;
+    display: none;
+    width: 100px;
+    text-align: center;
 }
+
 
 .btn-circle:hover, .btn-circle:active, .btn-circle:focus{
 	color: #fafafa;
@@ -64,7 +66,7 @@ h1 font{
 	margin:0 20px;
 }
 
-#iam{
+.box{
 	position: fixed;
 	left: 20%;
 	top: 10%;
@@ -79,13 +81,13 @@ h1 font{
 	display: none;
 }
 
-#iam p, ul{
+.box p, ul{
 	font-size:20px;
 }
 
-#iam b{margin:10px 0 5px 0;display: block;height:20px;}
+.box b{margin:10px 0 5px 0;display: block;height:20px;}
 
-#iam .close{
+.box .close{
 	position: absolute;
 	right:10px;
 	top: 10px;
@@ -96,6 +98,6 @@ h1 font{
 	font-size: 30px;
 	opacity: 0.3;
 }
-#iam .close:hover{
+.box .close:hover{
 	opacity: 1;
 }
