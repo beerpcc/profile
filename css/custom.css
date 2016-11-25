@@ -64,11 +64,13 @@ body {
 }
 
 .card h2{
-	font-family: 'Roboto Thin';
+	font-family: 'Roboto';
+	font-weight: 100;
 	font-size: 45px;
 	margin-top:0;
 }
 
 .card h2 b{
 	color: #fbfbfb;
+	font-weight: 400;
 }

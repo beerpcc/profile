@@ -1,11 +1,12 @@
 body {
-  font-family: Roboto;
+  font-family: 'Roboto';
   background: #3498db;
   background-size: cover;
 }
 
 h1{
-	font-family: 'Roboto Light';
+	font-family: 'Roboto';
+	font-weight: 100;
 	font-size: 50px;
 	color:#fafafa;
 	margin:100px 0;
@@ -32,7 +33,7 @@ h1 font{
 .btn-circle p{    
 	position: absolute;
     padding-top: 60px;
-    font-family: 'Roboto Light';
+    font-family: 'Roboto';
     font-size: 20px;
     display: none;
     width: 100px;
